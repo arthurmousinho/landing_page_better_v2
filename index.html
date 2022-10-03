@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header>
+        <a href=""><h1>Better</h1></a>
+        <nav>
+            <ul>
+                <li><a href="">Recent Games</a></li>
+                <li><a href="">Developers</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <main>
+        <section class="home-page"> 
+            <div>
+                <h1>Show your games to the world !</h1>
+                <a href="pages/signup/login.html"><button>Get Started</button></a>
+            </div>
+            <img src="images/home_page.png" alt="Home page image" id="image">   
+        </section>
+
+
+        <section class="images-porjects">
+            <h1>The place for game lovers</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> <img src="images/game_images/1.png" alt="img1"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/2.png" alt="img2"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/3.png" alt="img3"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/4.png" alt="img4"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/5.png" alt="img5"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/6.png" alt="img6"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/7.png" alt="img7"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/8.png" alt="img8"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/9.png" alt="img9"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/10.png" alt="img10"> </div>
+                    <div class="swiper-slide"> <img src="images/game_images/11.png" alt="img11"> </div>
+                </div>      
+                <div class="swiper-pagination"></div>   
+            </div>
+        </section>
+
+
+
+        <section class="community-section">
+            <div class="heading-button">
+                <h1>Get in to our community</h1>
+                <a href="pages/signup/login.html"><button>Creat Account</button></a>
+            </div>
+            <div class="gamers-images">
+                <a href="https://storyset.com/people" target="_blank"><img src="images/community/gamer1.png"></a>
+                <a href="https://storyset.com/people" target="_blank"><img src="images/community/gamer2.png"></a>
+            </div>
+        </section>
+
+
+        <section class="developers-section">
+            <div class="dev-images">
+                <a href="https://storyset.com/technology" target="_blank"><img src="images/developers/dev1.png"></a>
+                <a href="https://storyset.com/work" target="_blank"><img src="images/developers/dev2.png"></a>
+            </div>
+            <div class="heading-button">
+                <h1>Support for developers</h1>
+                <a href="pages/signin/login.html"><button>Login</button></a>
+            </div>
+        </section>
+   </main>
+    
+
+   <footer>
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+        <div>
+            <a href=""><img src="images/icons/email_icon.png"></a>
+            <a href=""><img src="images/icons/github_icon.png"></a>
+            <a href=""><img src="images/icons/linkedin_icon.png"></a>
+            <a href=""><img src="images/icons/twitter_icon.png"></a>
+        </div>
+    </div>
+
+
+    <div class="navegation">
+        <h2>Navegation</h2>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="">Recent Games</a></li>
+                    <li><a href="">Developers</a></li>
+                    <li><a href="">Community</a></li>
+                    <li><a href="https://www.canva.com/design/DAFBzyIbtu8/yzTXmzdvxoqrmdbn-ska5g/view?utm_content=DAFBzyIbtu8&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent#2" target="_blank">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="tools">
+        <h2>Tools</h2>
+        <ul>
+            <li><a href="https://swiperjs.com/" target="_blank">Swiper JS</a></li>
+            <li><a href="https://storyset.com/" target="_blank">Story Set</a></li>
+            <li><a href="https://www.canva.com/pt_br/" target="_blank">Canva</a></li>
+            <li><a href="https://www.iconfinder.com/" target="_blank">IconFinder</a></li>
+        </ul>
+    </div>
+
+
+    <div class="comments">
+        <h2>Let your comment</h2>
+        <div>
+            <form action="">
+                <textarea name="" id="" cols="20" rows="5" style="resize: none;"></textarea>
+                <button type="reset">Submit</button>
+            </form>
+        </div>
+        
+    </div>
+   </footer>
+
+
+
+
+
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 4,
+       spaceBetween: 5,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+     });
+   </script>
+
+  
+</body>
+</html>

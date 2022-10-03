@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    overflow-x: hidden;
+}
+
+/* ----------Header---------- */
+
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #04052E;
+}
+
+header h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 3;
+    font-weight: 900;
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+header ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: all linear .3s;
+}
+
+header ul li a:hover {
+    /* box-shadow: none 200px 0 0 0;
+    color: white;
+    font-weight: 800; */
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+
+/* ----------Home Section---------- */
+
+.home-page {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #04052E;
+    text-align: center;
+}
+
+
+.home-page #image {
+    width: 600px;
+}
+
+.home-page div {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home-page div h1 {
+    font-size: 60px;
+    color: white;
+    text-align: left;
+}
+
+.home-page div button {
+    width: 300px;
+    height: 55px;
+    font-size: 23px;
+    background-color: rgb(9, 123, 195);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 100;
+    transition: all .3s linear;
+}
+
+.home-page div button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+
+/* -----recent-games-section----- */
+
+.images-porjects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #04052e;
+}
+
+.images-porjects h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: white;
+    
+}
+
+.images-porjects img {
+    width: 350px;
+    height: 600px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.swiper-slide img {
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.swiper-slide img:hover{
+    transform: scale(1.1)
+}
+
+
+
+/* ------ Commmunity Section --------- */
+
+.community-section{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(9, 123, 195);
+}
+
+.community-section h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: white;
+    background-color: rgb(9, 123, 195);
+}
+
+.gamers-images img {
+    width: 250px;
+    height: 250px;
+}
+
+.gamers-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.heading-button button {
+    width: 300px;
+    height: 55px;
+    font-size: 23px;
+    background-color: rgb(0, 90, 145);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-weight: 100;
+    transition: all .3s linear;
+}
+
+.heading-button a {
+    text-align: center;
+}
+
+.heading-button {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.heading-button button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+
+
+/* -----Developers sections----- */
+
+.developers-section {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(9, 123, 195);
+}
+
+.dev-images img{
+    width: 250px;
+    height: 250px;
+}
+
+.dev-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.heading-button h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    color: white;
+    background-color: rgb(9, 123, 195);
+}
+
+
+/* -----Footer----- */
+
+footer {
+    height: 35vh; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li {
+    list-style: none;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-us div {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.navegation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.navegation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comments button {
+    width: 100px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer a:hover{
+    box-shadow: 1px 1px 5px black;
+}
+
+footer .tools {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .tools ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
