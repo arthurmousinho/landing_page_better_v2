@@ -1,7 +1,6 @@
 # landing_page_better_v2
 Landing page do projeto de uma plataforma de promoção de jogos
 
-## Bem vindo👋
 🔗 [Clique aqui para acessar](https://arthurmousinho.github.io/landing_page_better_v2)
 
 ![print](https://user-images.githubusercontent.com/102264203/193854353-a4cf2ac6-167b-49cc-b922-65c01a248dec.png)
