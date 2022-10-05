@@ -16,7 +16,7 @@ Atualmente estamos prototipando a ideia
 - HTML5
 - CSS3
 - Swiper Js
-- WordPress
+- Github Pages
 
 ## Time 🏆
 -
